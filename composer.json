@@ -1,0 +1,19 @@
+{
+    "name": "aliyuncs/sls",
+    "description": "aliyun-log-php-sdk-1.0 (PSR-4)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SLS\\": "src/SLS"
+        }
+    },
+    "authors": [
+        {
+            "name": "pangxp"
+        }
+    ],
+    "require": {
+        "php":">=5.6"
+    }
+}
