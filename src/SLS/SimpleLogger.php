@@ -7,6 +7,7 @@ namespace SLS;
 use SLS\Models\LogItem;
 use SLS\Models\Request\PutLogsRequest;
 use SLS\Models\LogLevel\LogLevel;
+use \Exception;
 /**
  * Class SimpleLogger
  * a wrapper for submit log message to server, to avoid post log frequently, using a internal cache for messages

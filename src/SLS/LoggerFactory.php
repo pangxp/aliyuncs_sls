@@ -5,6 +5,7 @@
  */
 namespace SLS;
 use SLS\SimpleLogger;
+use \Exception;
 /**
  * Class LoggerFactory
  * Factory for creating logger instance, with $client, $project, $logstore, $topic configurable.

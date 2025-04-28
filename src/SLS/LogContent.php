@@ -2,6 +2,7 @@
 // Please include the below file before log.proto.php
 //require('protocolbuffers.inc.php');
 namespace SLS;
+use \Exception;
 // message Log.Content
 class LogContent {
   private $_unknown;

@@ -1,5 +1,6 @@
 <?php
 namespace SLS;
+use \Exception;
 /**
  * Class to aid in the parsing and creating of Protocol Buffer Messages
  * This class should be included by the developer before they use a
